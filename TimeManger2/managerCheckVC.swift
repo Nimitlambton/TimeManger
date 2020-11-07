@@ -165,10 +165,22 @@ class managerCheckVC: UIViewController  {
 
 
 extension managerCheckVC : UITableViewDataSource , UITableViewDelegate{
+    
+    
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
         work.count
     }
+    
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print(indexPath)
+    }
+    
+
+    
+    
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         //let  name = objectArray[indexPath.row]

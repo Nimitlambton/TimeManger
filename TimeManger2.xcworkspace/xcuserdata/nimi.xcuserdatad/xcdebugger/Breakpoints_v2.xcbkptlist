@@ -60,8 +60,8 @@
             filePath = "signupVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "131"
-            endingLineNumber = "131"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
             landmarkName = "setMID()"
             landmarkType = "7">
          </BreakpointContent>
@@ -92,8 +92,8 @@
             filePath = "TimeManger2/managerCheckVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "249"
-            endingLineNumber = "249"
+            startingLineNumber = "261"
+            endingLineNumber = "261"
             landmarkName = "managerCheckVC"
             landmarkType = "21">
          </BreakpointContent>

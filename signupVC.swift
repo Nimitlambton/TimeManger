@@ -83,6 +83,17 @@ class signupVC: UIViewController {
         
         Auth.auth().createUser(withEmail: email, password: pass) { [self] authResult, error in
  
+            if ((error) != nil){
+                
+                
+                showToast(message:error?.localizedDescription ?? "", seconds: 2)
+                
+                
+                
+            }
+            
+            
+            
             if(error == nil){
                 
                 
@@ -132,6 +143,11 @@ class signupVC: UIViewController {
         db.collection("users").getDocuments() { [self] (querySnapshot, err) in
             if let err = err {
                 print("Error getting documents: \(err)")
+                
+                
+                
+                
+                
             } else {
                 
                 print(querySnapshot!.count)
@@ -151,3 +167,4 @@ class signupVC: UIViewController {
     }
     
 }
+

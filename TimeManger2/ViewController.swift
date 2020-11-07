@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     let sb = UIStoryboard(name: "Main", bundle: nil)
     var empType: String = ""
     
-    
+    //dummy
     
     @IBOutlet weak var empActivity: UIButton!
     
