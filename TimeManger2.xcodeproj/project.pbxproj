@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,17 @@
 		381AF7AA260E1D8C004405DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 381AF7A8260E1D8C004405DE /* Main.storyboard */; };
 		381AF7AC260E1D8E004405DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 381AF7AB260E1D8E004405DE /* Assets.xcassets */; };
 		381AF7AF260E1D8E004405DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 381AF7AD260E1D8E004405DE /* LaunchScreen.storyboard */; };
+		381AF7C4260E5A09004405DE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 381AF7C3260E5A09004405DE /* GoogleService-Info.plist */; };
+		382B3A7E261088B200B9C8A8 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382B3A7D261088B200B9C8A8 /* LoginVC.swift */; };
+		382B3A812610954000B9C8A8 /* signupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382B3A802610954000B9C8A8 /* signupVC.swift */; };
+		382B3A842610D5D100B9C8A8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382B3A832610D5D100B9C8A8 /* User.swift */; };
+		3851EE5E2613521D0053743B /* managerCheckVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3851EE5D2613521D0053743B /* managerCheckVC.swift */; };
+		3851EE62261352870053743B /* empSubmitPortralVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3851EE61261352870053743B /* empSubmitPortralVC.swift */; };
+		DC6A50120523FC633E682F18 /* libPods-TimeManger2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5819F611376FBF115D5040A8 /* libPods-TimeManger2.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1AD147231D8056D6B66EB917 /* Pods-TimeManger2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeManger2.release.xcconfig"; path = "Target Support Files/Pods-TimeManger2/Pods-TimeManger2.release.xcconfig"; sourceTree = "<group>"; };
 		381AF79F260E1D8C004405DE /* TimeManger2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeManger2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		381AF7A2260E1D8C004405DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		381AF7A4260E1D8C004405DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,14 @@
 		381AF7AB260E1D8E004405DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		381AF7AE260E1D8E004405DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		381AF7B0260E1D8E004405DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		381AF7C3260E5A09004405DE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		382B3A7D261088B200B9C8A8 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		382B3A802610954000B9C8A8 /* signupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signupVC.swift; sourceTree = "<group>"; };
+		382B3A832610D5D100B9C8A8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3851EE5D2613521D0053743B /* managerCheckVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = managerCheckVC.swift; sourceTree = "<group>"; };
+		3851EE61261352870053743B /* empSubmitPortralVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = empSubmitPortralVC.swift; sourceTree = "<group>"; };
+		5819F611376FBF115D5040A8 /* libPods-TimeManger2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TimeManger2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5F39DDD3A5051015D359DF /* Pods-TimeManger2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeManger2.debug.xcconfig"; path = "Target Support Files/Pods-TimeManger2/Pods-TimeManger2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC6A50120523FC633E682F18 /* libPods-TimeManger2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +59,8 @@
 			children = (
 				381AF7A1260E1D8C004405DE /* TimeManger2 */,
 				381AF7A0260E1D8C004405DE /* Products */,
+				F70B87005FE113A699842B51 /* Pods */,
+				CB833E93165F39F6A26CED2A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +75,47 @@
 		381AF7A1260E1D8C004405DE /* TimeManger2 */ = {
 			isa = PBXGroup;
 			children = (
+				381AF7C3260E5A09004405DE /* GoogleService-Info.plist */,
 				381AF7A2260E1D8C004405DE /* AppDelegate.swift */,
 				381AF7A4260E1D8C004405DE /* SceneDelegate.swift */,
-				381AF7A6260E1D8C004405DE /* ViewController.swift */,
 				381AF7A8260E1D8C004405DE /* Main.storyboard */,
 				381AF7AB260E1D8E004405DE /* Assets.xcassets */,
 				381AF7AD260E1D8E004405DE /* LaunchScreen.storyboard */,
 				381AF7B0260E1D8E004405DE /* Info.plist */,
+				381AF7A6260E1D8C004405DE /* ViewController.swift */,
+				3851EE5D2613521D0053743B /* managerCheckVC.swift */,
+				3851EE56261207D00053743B /* classes */,
 			);
 			path = TimeManger2;
+			sourceTree = "<group>";
+		};
+		3851EE56261207D00053743B /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				3851EE61261352870053743B /* empSubmitPortralVC.swift */,
+				382B3A7D261088B200B9C8A8 /* LoginVC.swift */,
+				382B3A832610D5D100B9C8A8 /* User.swift */,
+				382B3A802610954000B9C8A8 /* signupVC.swift */,
+			);
+			name = classes;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		CB833E93165F39F6A26CED2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5819F611376FBF115D5040A8 /* libPods-TimeManger2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F70B87005FE113A699842B51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD5F39DDD3A5051015D359DF /* Pods-TimeManger2.debug.xcconfig */,
+				1AD147231D8056D6B66EB917 /* Pods-TimeManger2.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +125,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 381AF7B3260E1D8E004405DE /* Build configuration list for PBXNativeTarget "TimeManger2" */;
 			buildPhases = (
+				D7D984D3C92685A9D052547F /* [CP] Check Pods Manifest.lock */,
 				381AF79B260E1D8C004405DE /* Sources */,
 				381AF79C260E1D8C004405DE /* Frameworks */,
 				381AF79D260E1D8C004405DE /* Resources */,
+				DFE34A9D58CEAB2DE9F18BA3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				381AF7AF260E1D8E004405DE /* LaunchScreen.storyboard in Resources */,
+				381AF7C4260E5A09004405DE /* GoogleService-Info.plist in Resources */,
 				381AF7AC260E1D8E004405DE /* Assets.xcassets in Resources */,
 				381AF7AA260E1D8C004405DE /* Main.storyboard in Resources */,
 			);
@@ -132,13 +186,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D7D984D3C92685A9D052547F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TimeManger2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFE34A9D58CEAB2DE9F18BA3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TimeManger2/Pods-TimeManger2-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TimeManger2/Pods-TimeManger2-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TimeManger2/Pods-TimeManger2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		381AF79B260E1D8C004405DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				381AF7A7260E1D8C004405DE /* ViewController.swift in Sources */,
+				382B3A812610954000B9C8A8 /* signupVC.swift in Sources */,
+				3851EE5E2613521D0053743B /* managerCheckVC.swift in Sources */,
+				382B3A842610D5D100B9C8A8 /* User.swift in Sources */,
 				381AF7A3260E1D8C004405DE /* AppDelegate.swift in Sources */,
+				382B3A7E261088B200B9C8A8 /* LoginVC.swift in Sources */,
+				3851EE62261352870053743B /* empSubmitPortralVC.swift in Sources */,
 				381AF7A5260E1D8C004405DE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +384,7 @@
 		};
 		381AF7B4260E1D8E004405DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD5F39DDD3A5051015D359DF /* Pods-TimeManger2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +403,7 @@
 		};
 		381AF7B5260E1D8E004405DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AD147231D8056D6B66EB917 /* Pods-TimeManger2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
