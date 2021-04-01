@@ -14,8 +14,7 @@ class ViewController: UIViewController {
     let sb = UIStoryboard(name: "Main", bundle: nil)
     var empType: String = ""
     
-//gnfsjk
-    
+//gnfsjkgfg
     @IBOutlet weak var empActivity: UIButton!
     
     @IBOutlet weak var empName: UILabel!
