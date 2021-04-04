@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BFFD852BD6B56F84C9A7960 /* Pods_TimeManger2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2817C5A51BD4ED3262A2835 /* Pods_TimeManger2.framework */; };
 		381AF7A3260E1D8C004405DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381AF7A2260E1D8C004405DE /* AppDelegate.swift */; };
 		381AF7A5260E1D8C004405DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381AF7A4260E1D8C004405DE /* SceneDelegate.swift */; };
 		381AF7A7260E1D8C004405DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381AF7A6260E1D8C004405DE /* ViewController.swift */; };
@@ -19,7 +20,7 @@
 		382B3A842610D5D100B9C8A8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382B3A832610D5D100B9C8A8 /* User.swift */; };
 		3851EE5E2613521D0053743B /* managerCheckVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3851EE5D2613521D0053743B /* managerCheckVC.swift */; };
 		3851EE62261352870053743B /* empSubmitPortralVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3851EE61261352870053743B /* empSubmitPortralVC.swift */; };
-		DC6A50120523FC633E682F18 /* libPods-TimeManger2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5819F611376FBF115D5040A8 /* libPods-TimeManger2.a */; };
+		38C1C5152618DB6E004E48B8 /* WorkTabiewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C1C5142618DB6E004E48B8 /* WorkTabiewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,8 +39,9 @@
 		382B3A832610D5D100B9C8A8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		3851EE5D2613521D0053743B /* managerCheckVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = managerCheckVC.swift; sourceTree = "<group>"; };
 		3851EE61261352870053743B /* empSubmitPortralVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = empSubmitPortralVC.swift; sourceTree = "<group>"; };
-		5819F611376FBF115D5040A8 /* libPods-TimeManger2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TimeManger2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38C1C5142618DB6E004E48B8 /* WorkTabiewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkTabiewCell.swift; sourceTree = "<group>"; };
 		CD5F39DDD3A5051015D359DF /* Pods-TimeManger2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeManger2.debug.xcconfig"; path = "Target Support Files/Pods-TimeManger2/Pods-TimeManger2.debug.xcconfig"; sourceTree = "<group>"; };
+		D2817C5A51BD4ED3262A2835 /* Pods_TimeManger2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeManger2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC6A50120523FC633E682F18 /* libPods-TimeManger2.a in Frameworks */,
+				1BFFD852BD6B56F84C9A7960 /* Pods_TimeManger2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +87,7 @@
 				381AF7A6260E1D8C004405DE /* ViewController.swift */,
 				3851EE5D2613521D0053743B /* managerCheckVC.swift */,
 				3851EE56261207D00053743B /* classes */,
+				38C1C5142618DB6E004E48B8 /* WorkTabiewCell.swift */,
 			);
 			path = TimeManger2;
 			sourceTree = "<group>";
@@ -104,7 +107,7 @@
 		CB833E93165F39F6A26CED2A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5819F611376FBF115D5040A8 /* libPods-TimeManger2.a */,
+				D2817C5A51BD4ED3262A2835 /* Pods_TimeManger2.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				381AF7A7260E1D8C004405DE /* ViewController.swift in Sources */,
+				38C1C5152618DB6E004E48B8 /* WorkTabiewCell.swift in Sources */,
 				382B3A812610954000B9C8A8 /* signupVC.swift in Sources */,
 				3851EE5E2613521D0053743B /* managerCheckVC.swift in Sources */,
 				382B3A842610D5D100B9C8A8 /* User.swift in Sources */,

@@ -7,6 +7,7 @@
 
 import UIKit
 import Firebase
+import FirebaseFirestoreSwift
 class empSubmitPortralVC: UIViewController {
     
     
@@ -23,16 +24,7 @@ class empSubmitPortralVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-        
-  
-       
-        
-        
-        
-        
-        
-        
+   
     }
     
 
@@ -53,7 +45,7 @@ class empSubmitPortralVC: UIViewController {
         let UserRef = db.collection("users").document(uid!)
         
         
-        let when = Date()
+        let when = "\(Date())"
         let data: [String: Any] = [
             "taskDesc" : taskDesc.text! ,
             "hoursWorked" : hoursWorked.text!,

@@ -7,10 +7,41 @@
 
 import Foundation
 
-class User {
+//class User {
+//
+//    var name : String
+//    var  hoursWorked :String
+//    var  taskDesc : String
+//    var when : String
+//
+//
+//    init(name: String ,hoursWorked: String ,  taskDesc: String ,when :String )  {
+//
+//        self.name = name
+//        self.hoursWorked = hoursWorked
+//        self.taskDesc = taskDesc
+//        self.when = taskDesc
+//
+//        }
+//
+//
+//
+//
+//}
+
+
+struct User  : Codable{
     
-    var id : Int!
-    var  name :String!
-    var  type : Bool!
-    var Mid : Int?
+    var AssignedMangerId :String
+    let name : String
+    let email : String
+    let emptype : String
+    var workDone : [[String : String]]
+
 }
+
+
+
+
+
+
